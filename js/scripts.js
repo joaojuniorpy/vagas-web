@@ -7,13 +7,13 @@ const videos = [
     title: "Analista de Ti | Efetivo CLT",
     horas: "8hs p/ dia",
     imagethumb: "",
-    formid: ""
+    formid: "ZGHnKgWQ9NGAhDI5PF9Z"
   },
   {
     title: "Analista de Contabilidade | Efetivo CLT",
     horas: "8hs p/ dia",
     imagethumb: "",
-    formid: ""
+    formid: "ZGHnKgWQ9NGAhDI5PF9Z"
   },
   {
     title: "Cargo | Efetivo CLT",
@@ -212,7 +212,7 @@ const videos = [
 
 videos.map(video => {
   const cardClone = card.cloneNode(true);
-  cardClone.setAttribute("id", video.video_id);
+  cardClone.setAttribute("id", video.formid);
   cardClone.querySelector("img").src = video.imagethumb;
   cardClone.querySelector(".title").innerHTML = video.title;
   cardClone.querySelector(".info > p.text--medium").innerHTML =
@@ -231,7 +231,7 @@ cards.forEach(card => {
   card.addEventListener("click", () => {
     modal.querySelector(
       "iframe"
-    ).src = `https://forms.gle/APWr5k57KL5ipnH56`;
+    ).src = `https://zfrmz.com/${card.getAttribute("id")}`; 
     modalOverlay.classList.add("active");
     modal.classList.add("active");
     document.querySelector("body").style.overflow = "hidden";
@@ -244,3 +244,4 @@ document.querySelector(".close-modal").addEventListener("click", () => {
   modal.querySelector("iframe").src = ``;
   document.querySelector("body").style.overflow = "initial";
 });
+
