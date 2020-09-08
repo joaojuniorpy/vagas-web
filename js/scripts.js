@@ -4,11 +4,12 @@ const card = document.querySelector("div.card");
 
 const painel = [
   {
-    title: "Analista de Ti | Efetivo CLT",
-    horas: "8hs p/ dia",
+    title: "Analista de Ti | Júnior",
+    horas: "Efetivo CLT",
     imagethumb: "",
     formid: ""
   },
+  // Alterar
   {
     title: "Analista de Contabilidade | Efetivo CLT",
     horas: "8hs p/ dia",
