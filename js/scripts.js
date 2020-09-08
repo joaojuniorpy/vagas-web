@@ -5,207 +5,207 @@ const card = document.querySelector("div.card");
 const painel = [
   {
     title: "Analista de Ti | Júnior",
-    horas: "Efetivo CLT",
+    tipo: "Efetivo CLT",
     imagethumb: "",
     formid: ""
   },
   // Alterar
   {
     title: "Analista de Contabilidade | Efetivo CLT",
-    horas: "8hs p/ dia",
+    tipo: "8hs p/ dia",
     imagethumb: "",
     formid: ""
   },
   {
     title: "Cargo | Efetivo CLT",
-    horas: "8hs p/ dia",
+    tipo: "8hs p/ dia",
     imagethumb: "",
     formid: ""
   },
   {
     title: "Cargo | Efetivo CLT",
-    horas: "8hs p/ dia",
+    tipo: "8hs p/ dia",
     imagethumb: "",
     formid: ""
   },
   {
     title: "Cargo | Efetivo CLT",
-    horas: "8hs p/ dia",
+    tipo: "8hs p/ dia",
     imagethumb: "",
     formid: ""
   },
   {
     title:
       "Cargo | Efetivo CLT",
-    horas: "8hs p/ dia",
+    tipo: "8hs p/ dia",
     imagethumb: "",
     formid: ""
   },
   {
     title:
       "Cargo | Efetivo CLT",
-    horas: "8hs p/ dia",
+    tipo: "8hs p/ dia",
     imagethumb: "",
     formid: ""
   },
   {
     title:
       "Cargo | Efetivo CLT",
-    horas: "8hs p/ dia",
+    tipo: "8hs p/ dia",
     imagethumb: "",
     formid: ""
   },
   {
     title:
       "Cargo | Efetivo CLT",
-    horas: "8hs p/ dia",
+    tipo: "8hs p/ dia",
     imagethumb: "",
     formid: ""
   },
   {
     title:
       "Cargo | Efetivo CLT",
-    horas: "8hs p/ dia",
+    tipo: "8hs p/ dia",
     imagethumb: "",
     formid: ""
   },
   {
     title:
       "Cargo | Efetivo CLT",
-    horas: "8hs p/ dia",
+    tipo: "8hs p/ dia",
     imagethumb: "",
     formid: ""
   },
   {
     title:
       "Cargo | Efetivo CLT",
-    horas: "8hs p/ dia",
+    tipo: "8hs p/ dia",
     imagethumb: "",
     formid: ""
   },
   {
     title:
       "Cargo | Efetivo CLT",
-    horas: "8hs p/ dia",
+    tipo: "8hs p/ dia",
     imagethumb: "",
     formid: ""
   },
   {
     title:
       "Cargo | Efetivo CLT",
-    horas: "8hs p/ dia",
+    tipo: "8hs p/ dia",
     imagethumb: "",
     formid: ""
   },
   {
     title:
       "Cargo | Efetivo CLT",
-    horas: "8hs p/ dia",
+    tipo: "8hs p/ dia",
     imagethumb: "",
     formid: ""
   },
   {
     title:
       "Cargo | Efetivo CLT",
-    horas: "8hs p/ dia",
+    tipo: "8hs p/ dia",
     imagethumb: "",
     formid: ""
   },
   {
     title:
       "Cargo | Efetivo CLT",
-    horas: "8hs p/ dia",
+    tipo: "8hs p/ dia",
     imagethumb: "",
     formid: ""
   },
   {
     title:
       "Cargo | Efetivo CLT",
-    horas: "8hs p/ dia",
+    tipo: "8hs p/ dia",
     imagethumb: "",
     formid: ""
   },
   {
     title:
       "Cargo | Efetivo CLT",
-    horas: "8hs p/ dia",
+    tipo: "8hs p/ dia",
     imagethumb: "",
     formid: ""
   },
   {
     title:
       "Cargo | Efetivo CLT",
-    horas: "8hs p/ dia",
+    tipo: "8hs p/ dia",
     imagethumb: "",
     formid: ""
   },
   {
     title:
       "Cargo | Efetivo CLT",
-    horas: "8hs p/ dia",
+    tipo: "8hs p/ dia",
     imagethumb: "",
     formid: ""
   },
   {
     title:
       "Cargo | Efetivo CLT",
-    horas: "8hs p/ dia",
+    tipo: "8hs p/ dia",
     imagethumb: "",
     formid: ""
   },
   {
     title:
       "Cargo | Efetivo CLT",
-    horas: "8hs p/ dia",
+    tipo: "8hs p/ dia",
     imagethumb: "",
     formid: ""
   },
   {
     title:
       "Cargo | Efetivo CLT",
-    horas: "8hs p/ dia",
+    tipo: "8hs p/ dia",
     imagethumb: "",
     formid: ""
   },
   {
     title:
       "Cargo | Efetivo CLT",
-    horas: "8hs p/ dia",
+    tipo: "8hs p/ dia",
     imagethumb: "",
     formid: ""
   },
   {
     title:
       "Cargo | Efetivo CLT",
-    horas: "8hs p/ dia",
+    tipo: "8hs p/ dia",
     imagethumb: "",
     formid: ""
   },
   {
     title:
       "Cargo | Efetivo CLT",
-    horas: "8hs p/ dia",
+    tipo: "8hs p/ dia",
     imagethumb: "",
     formid: ""
   },
   {
     title:
       "Cargo | Efetivo CLT",
-    horas: "8hs p/ dia",
+    tipo: "8hs p/ dia",
     imagethumb: "",
     formid: ""
   },
     {
     title:
       "Cargo | Efetivo CLT",
-    horas: "8hs p/ dia",
+    tipo: "8hs p/ dia",
     imagethumb: "",
     formid: ""
   },
   {
     title:
       "Cargo | Efetivo CLT",
-    horas: "8hs p/ dia",
+    tipo: "8hs p/ dia",
     imagethumb: "",
     formid: ""
   },
@@ -217,7 +217,7 @@ painel.map(video => {
   cardClone.querySelector("img").src = video.imagethumb;
   cardClone.querySelector(".title").innerHTML = video.title;
   cardClone.querySelector(".info > p.text--medium").innerHTML =
-    video.horas;
+    video.tipo;
   sectionCards.appendChild(cardClone);
 });
 
