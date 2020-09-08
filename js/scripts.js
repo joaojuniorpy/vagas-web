@@ -7,7 +7,7 @@ const videos = [
     title: "Analista de Ti | Efetivo CLT",
     horas: "8hs p/ dia",
     imagethumb: "",
-    formid: "ZGHnKgWQ9NGAhDI5PF9Z"
+    formid: "joaojuniorpy@gmail.com"
   },
   {
     title: "Analista de Contabilidade | Efetivo CLT",
@@ -231,7 +231,7 @@ cards.forEach(card => {
   card.addEventListener("click", () => {
     modal.querySelector(
       "iframe"
-    ).src = `https://zfrmz.com/${card.getAttribute("id")}`; 
+    ).src = `mailto:${card.getAttribute("id")}`; 
     modalOverlay.classList.add("active");
     modal.classList.add("active");
     document.querySelector("body").style.overflow = "hidden";
