@@ -313,6 +313,6 @@ footer {
 
 footer::after {
   content: "Feito com ♥️ por João Júnior";
-  opacity: 0.6;
+  opacity: 0.8;
   font-size: 1.8rem;
 }
