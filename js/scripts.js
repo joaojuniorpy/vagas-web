@@ -2,7 +2,7 @@ const sectionCards = document.querySelector("section.cards");
 
 const card = document.querySelector("div.card");
 
-const videos = [
+const painel = [
   {
     title: "Analista de Ti | Efetivo CLT",
     horas: "8hs p/ dia",
@@ -210,7 +210,7 @@ const videos = [
   },
 ];
 
-videos.map(video => {
+painel.map(video => {
   const cardClone = card.cloneNode(true);
   cardClone.setAttribute("id", video.formid);
   cardClone.querySelector("img").src = video.imagethumb;
