@@ -304,3 +304,15 @@ h4,h5{
   margin-right: 50%;
   margin-bottom: 2%;
 }
+footer {
+  margin-top: auto;
+  text-align: center;
+  padding: 3.2rem 0 1.6rem;
+  animation: up 0.4s 0.4s backwards;
+}
+
+footer::after {
+  content: "Feito com ♥️ por João Júnior";
+  opacity: 0.6;
+  font-size: 1.8rem;
+}
