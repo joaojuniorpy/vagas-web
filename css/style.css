@@ -81,23 +81,19 @@ h3 {
   display: inline-block;
   font-size: 1.6rem;
   font-weight: 600;
-  color: rgb(255, 255, 255);
+  color: black;
   background-color: #4179ce ;
   margin: 15px 0px 0px;
   padding: 12px 30px;
   text-decoration: none;
   border-radius: 8px;
   transition: all 150ms linear 0s;
+
 }
 
 .button:hover {
   opacity: 0.9;
 }
-
-
-/*=============== 
-HERO
-==================*/
 section.hero {
   margin: 80px 0;
 }
@@ -117,18 +113,9 @@ section.hero p {
   line-height: 3.2rem;
   margin: 10px 0px 0px;
 }
-
-
-
-/*=============== 
-MAIN
-==================*/
 main {
   margin-bottom: 80px;
 }
-/*=============== 
-CARDS
-==================*/
 .cards {
   width: 90%;
   max-width: 980px;
@@ -144,6 +131,12 @@ CARDS
   line-height: 2.6rem;
   font-weight: 400;
   color: #ecf0f1;
+}
+
+.info {
+  display: flex;
+  align-self: end;
+  align-items: center;
 }
 
 .card {
@@ -183,23 +176,16 @@ CARDS
   margin-bottom: 20px;
 }
 
-.info {
-  display: flex;
-  align-self: end;
-  align-items: center;
-}
-
 .price {
   margin-left: auto;
   padding: 5px 20px;
   border-radius: 20px;
-  background-color: #779fdc;
+  background-color: rgb(75, 75, 75);
+  opacity: 0.4;
   filter: brightness(90%);
+  color: #fff;
 }
 
-/*=============== 
-MODAL
-==================*/
 .modal-overlay {
   display: flex;
   align-items: center;
@@ -283,7 +269,7 @@ MODAL
   bottom: 0;
   left: 0;
   z-index: -99;
-  background-color: white;
+  background-color: #111111;
 }
 .video-foreground,
 .video-background iframe {
@@ -329,4 +315,8 @@ h2{
 
 #vagas{
   color: white;
+}
+#linksiniciais {
+  color: black;
+  font-style: bold;
 }
