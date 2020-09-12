@@ -4,217 +4,216 @@ const card = document.querySelector("div.card");
 
 const painel = [
   {
-    title: "Analista de Ti | Júnior",
+    title: "Cargo | Salario",
     tipo: "Efetivo CLT",
-    imagethumb: "",
-    formid: ""
-  },
-  // Alterar
-  {
-    title: "Analista de Contabilidade | Efetivo CLT",
-    tipo: "8hs p/ dia",
-    imagethumb: "",
-    formid: ""
+    image: "",
+    email: ""
   },
   {
-    title: "Cargo | Efetivo CLT",
-    tipo: "8hs p/ dia",
-    imagethumb: "",
-    formid: ""
+    title: "Cargo | Salario",
+    tipo: "Efetivo CLT",
+    image: "",
+    email: ""
   },
   {
-    title: "Cargo | Efetivo CLT",
-    tipo: "8hs p/ dia",
-    imagethumb: "",
-    formid: ""
+    title: "Cargo | Salario",
+    tipo: "Efetivo CLT",
+    image: "",
+    email: ""
   },
   {
-    title: "Cargo | Efetivo CLT",
-    tipo: "8hs p/ dia",
-    imagethumb: "",
-    formid: ""
+    title: "Cargo | Salario",
+    tipo: "Efetivo CLT",
+    image: "",
+    email: ""
   },
   {
-    title:
-      "Cargo | Efetivo CLT",
-    tipo: "8hs p/ dia",
-    imagethumb: "",
-    formid: ""
+    title: "Cargo | Salario",
+    tipo: "Efetivo CLT",
+    image: "",
+    email: ""
   },
   {
     title:
-      "Cargo | Efetivo CLT",
-    tipo: "8hs p/ dia",
-    imagethumb: "",
-    formid: ""
+      "Cargo | Salario",
+    tipo: "Efetivo CLT",
+    image: "",
+    email: ""
   },
   {
     title:
-      "Cargo | Efetivo CLT",
-    tipo: "8hs p/ dia",
-    imagethumb: "",
-    formid: ""
+      "Cargo | Salario",
+    tipo: "Efetivo CLT",
+    image: "",
+    email: ""
   },
   {
     title:
-      "Cargo | Efetivo CLT",
-    tipo: "8hs p/ dia",
-    imagethumb: "",
-    formid: ""
+      "Cargo | Salario",
+    tipo: "Efetivo CLT",
+    image: "",
+    email: ""
   },
   {
     title:
-      "Cargo | Efetivo CLT",
-    tipo: "8hs p/ dia",
-    imagethumb: "",
-    formid: ""
+      "Cargo | Salario",
+    tipo: "Efetivo CLT",
+    image: "",
+    email: ""
   },
   {
     title:
-      "Cargo | Efetivo CLT",
-    tipo: "8hs p/ dia",
-    imagethumb: "",
-    formid: ""
+      "Cargo | Salario",
+    tipo: "Efetivo CLT",
+    image: "",
+    email: ""
   },
   {
     title:
-      "Cargo | Efetivo CLT",
-    tipo: "8hs p/ dia",
-    imagethumb: "",
-    formid: ""
+      "Cargo | Salario",
+    tipo: "Efetivo CLT",
+    image: "",
+    email: ""
   },
   {
     title:
-      "Cargo | Efetivo CLT",
-    tipo: "8hs p/ dia",
-    imagethumb: "",
-    formid: ""
+      "Cargo | Salario",
+    tipo: "Efetivo CLT",
+    image: "",
+    email: ""
   },
   {
     title:
-      "Cargo | Efetivo CLT",
-    tipo: "8hs p/ dia",
-    imagethumb: "",
-    formid: ""
+      "Cargo | Salario",
+    tipo: "Efetivo CLT",
+    image: "",
+    email: ""
   },
   {
     title:
-      "Cargo | Efetivo CLT",
-    tipo: "8hs p/ dia",
-    imagethumb: "",
-    formid: ""
+      "Cargo | Salario",
+    tipo: "Efetivo CLT",
+    image: "",
+    email: ""
   },
   {
     title:
-      "Cargo | Efetivo CLT",
-    tipo: "8hs p/ dia",
-    imagethumb: "",
-    formid: ""
+      "Cargo | Salario",
+    tipo: "Efetivo CLT",
+    image: "",
+    email: ""
   },
   {
     title:
-      "Cargo | Efetivo CLT",
-    tipo: "8hs p/ dia",
-    imagethumb: "",
-    formid: ""
+      "Cargo | Salario",
+    tipo: "Efetivo CLT",
+    image: "",
+    email: ""
   },
   {
     title:
-      "Cargo | Efetivo CLT",
-    tipo: "8hs p/ dia",
-    imagethumb: "",
-    formid: ""
+      "Cargo | Salario",
+    tipo: "Efetivo CLT",
+    image: "",
+    email: ""
   },
   {
     title:
-      "Cargo | Efetivo CLT",
-    tipo: "8hs p/ dia",
-    imagethumb: "",
-    formid: ""
+      "Cargo | Salario",
+    tipo: "Efetivo CLT",
+    image: "",
+    email: ""
   },
   {
     title:
-      "Cargo | Efetivo CLT",
-    tipo: "8hs p/ dia",
-    imagethumb: "",
-    formid: ""
+      "Cargo | Salario",
+    tipo: "Efetivo CLT",
+    image: "",
+    email: ""
   },
   {
     title:
-      "Cargo | Efetivo CLT",
-    tipo: "8hs p/ dia",
-    imagethumb: "",
-    formid: ""
+      "Cargo | Salario",
+    tipo: "Efetivo CLT",
+    image: "",
+    email: ""
   },
   {
     title:
-      "Cargo | Efetivo CLT",
-    tipo: "8hs p/ dia",
-    imagethumb: "",
-    formid: ""
+      "Cargo | Salario",
+    tipo: "Efetivo CLT",
+    image: "",
+    email: ""
   },
   {
     title:
-      "Cargo | Efetivo CLT",
-    tipo: "8hs p/ dia",
-    imagethumb: "",
-    formid: ""
+      "Cargo | Salario",
+    tipo: "Efetivo CLT",
+    image: "",
+    email: ""
   },
   {
     title:
-      "Cargo | Efetivo CLT",
-    tipo: "8hs p/ dia",
-    imagethumb: "",
-    formid: ""
+      "Cargo | Salario",
+    tipo: "Efetivo CLT",
+    image: "",
+    email: ""
   },
   {
     title:
-      "Cargo | Efetivo CLT",
-    tipo: "8hs p/ dia",
-    imagethumb: "",
-    formid: ""
+      "Cargo | Salario",
+    tipo: "Efetivo CLT",
+    image: "",
+    email: ""
   },
   {
     title:
-      "Cargo | Efetivo CLT",
-    tipo: "8hs p/ dia",
-    imagethumb: "",
-    formid: ""
+    "Cargo | Salario",
+    tipo: "Efetivo CLT",
+    image: "",
+    email: ""
   },
   {
     title:
-      "Cargo | Efetivo CLT",
-    tipo: "8hs p/ dia",
-    imagethumb: "",
-    formid: ""
+    "Cargo | Salario",
+    tipo: "Efetivo CLT",
+    image: "",
+    email: ""
   },
   {
     title:
-      "Cargo | Efetivo CLT",
-    tipo: "8hs p/ dia",
-    imagethumb: "",
-    formid: ""
+    "Cargo | Salario",
+    tipo: "Efetivo CLT",
+    image: "",
+    email: ""
+  },
+  {
+    title:
+    "Cargo | Salario",
+    tipo: "Efetivo CLT",
+    image: "",
+    email: ""
   },
     {
     title:
-      "Cargo | Efetivo CLT",
-    tipo: "8hs p/ dia",
-    imagethumb: "",
-    formid: ""
+    "Cargo | Salario",
+    tipo: "Efetivo CLT",
+    image: "",
+    email: ""
   },
   {
     title:
-      "Cargo | Efetivo CLT",
-    tipo: "8hs p/ dia",
-    imagethumb: "",
-    formid: ""
+    "Cargo | Salario",
+    tipo: "Efetivo CLT",
+    image: "",
+    email: ""
   },
 ];
 
 painel.map(video => {
   const cardClone = card.cloneNode(true);
-  cardClone.setAttribute("id", video.formid);
-  cardClone.querySelector("img").src = video.imagethumb;
+  cardClone.setAttribute("id", video.email);
+  cardClone.querySelector("img").src = video.image;
   cardClone.querySelector(".title").innerHTML = video.title;
   cardClone.querySelector(".info > p.text--medium").innerHTML =
     video.tipo;

@@ -17,6 +17,7 @@ body {
   font-family: "Source Sans Pro";
   text-rendering: optimizelegibility;
   -webkit-font-smoothing: antialiased;
+  background-color: #111111;
 }
 
 body {
@@ -315,4 +316,17 @@ footer::after {
   content: "Feito com ♥️ por João Júnior";
   opacity: 0.8;
   font-size: 1.8rem;
+  color: gray;
+}
+
+h2{
+  color:white;
+}
+
+#seila{
+  color: gray;
+}
+
+#vagas{
+  color: white;
 }
