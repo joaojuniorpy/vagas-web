@@ -82,13 +82,11 @@ h3 {
   font-size: 1.6rem;
   font-weight: 600;
   color: rgb(255, 255, 255);
-  background-color: transparent ;
-  border-width: 2px;
-  border-color: #4179ce;
+  background-color: #4179ce ;
   margin: 15px 0px 0px;
   padding: 12px 30px;
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 8px;
   transition: all 150ms linear 0s;
 }
 
