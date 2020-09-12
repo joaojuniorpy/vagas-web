@@ -4,7 +4,7 @@ const card = document.querySelector("div.card");
 
 const painel = [
   {
-    title: "Cargo | Salario",
+    title: "Cargos | Salario",
     tipo: "Efetivo CLT",
     image: "",
     email: ""
