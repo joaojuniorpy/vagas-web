@@ -46,7 +46,7 @@ const painel = [{
         title: "Encarregado de Limpeza -  Temporario 2 meses",
         image: "/assets/icon.png",
         empresa: "Zona sul - Vila Nova Madalena -  Seg a Sab 8hs as 17hs.",
-        beneficios: "Salário fixo de R$ 1.490,00 + 20 % (podendo chegar a R$ 1.788,00)",
+        beneficios: "Salário fixo de R$ 1.490,00 + 20 % (podendo chegar a R$ 1.788,10)",
         requisito: "Condominio Residencial",
         email: "Dpessoal7@guillaumon.com.br"
     },
