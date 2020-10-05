@@ -242,7 +242,14 @@ const painel = [{
         requisito: "Experiencia em Metalurgica e E.Médio Completo",
         email: "selecao2@adhapta.com.br"
     },
-
+    {
+        title: "Gestor de RH Sênior",
+        image: "/assets/avantesocial.png",
+        empresa: "São Paulo/Belo Horizonte /Seg a Sab ",
+        beneficios: "Beneficios e Salarios a definir",
+        requisito: "Indispensavel habilidade com números. Disponibilidade imediata",
+        email: "institucional@avantesocial.org.br"
+    },
 
 ];
 
