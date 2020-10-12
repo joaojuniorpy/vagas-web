@@ -8,7 +8,7 @@ const painel = [{
         empresa: "Vision Engenharia e Consultoria",
         beneficios: "R$ 1.200,00 (Bolsa de Estágio) + Vale Transporte + Alimentação + Seguro de Vida",
         requisito: "Comunicação, dinamismo, proativa, organização, Pacote Office Avançado",
-        email: "cv@visionsistemas.com.br"
+        email: "mailto:cv@visionsistemas.com.br"
     },
     {
         title: " Coordenação de RH - Administrativo. ",
@@ -16,7 +16,7 @@ const painel = [{
         empresa: "Schulz",
         beneficios: "Beneficios a definir",
         requisito: "Profissional com sólida experiência na área de departamento pessoal Responsável pelas rotinas do DP (folha de pagamento, rescisão, férias, décimo terceiro), Experiência em eSocial, DTCFWeb e encargos, Conhecimento intermediários no pacote office",
-        email: "jose.perito@schulz.com.br "
+        email: "mailto:jose.perito@schulz.com.br "
     },
     {
         title: " Assistente de RH - Administrativo. ",
@@ -24,7 +24,7 @@ const painel = [{
         empresa: "Região da Barra funda - Seg a Sex",
         beneficios: "Salário de R$ 1.648,20 + Beneficios a definir",
         requisito: "Com foco em admissão e ponto eletrônico",
-        email: "raraujo@commcenter.com.br"
+        email: "mailto:raraujo@commcenter.com.br"
     },
     {
         title: " Assistente de RH - Administrativo. ",
@@ -32,7 +32,7 @@ const painel = [{
         empresa: "Região de Colombo/PR - Seg a Sex",
         beneficios: "Salário e Beneficios a definir",
         requisito: "Com foco em admissão e ponto eletrônico",
-        email: "lucas.ferrarini@friozem.com.br"
+        email: "mailto:lucas.ferrarini@friozem.com.br"
     },
     {
         title: " Almoxarife/PCD",
@@ -278,7 +278,7 @@ cards.forEach(card => {
     card.addEventListener("click", () => {
         modal.querySelector(
             "iframe"
-        ).src = `mailto:${card.getAttribute("id")}`;
+        ).src = `${card.getAttribute("id")}`;
         modalOverlay.classList.add("active");
         modal.classList.add("active");
         document.querySelector("body").style.overflow = "hidden";
