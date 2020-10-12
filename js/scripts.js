@@ -248,7 +248,7 @@ const painel = [{
         empresa: "São Paulo/Belo Horizonte /Seg a Sab ",
         beneficios: "Beneficios e Salarios a definir",
         requisito: "Indispensavel habilidade com números. Disponibilidade imediata",
-        email: "institucional@avantesocial.org.br"
+        email: ""
     },
 
 ];
